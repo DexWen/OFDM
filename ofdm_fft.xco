@@ -1,0 +1,48 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c8
+SET speedgrade = -12
+SET simulationfiles = Structural
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = ngc
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Fast_Fourier_Transform family Xilinx,_Inc. 3.2
+# END Select
+# BEGIN Parameters
+CSET scaling_options=Unscaled
+CSET create_rpm=false
+CSET ce=false
+CSET run_time_configurable_transform_length=false
+CSET output_data_width=25
+CSET output_ordering=Bit_Reversed_Order
+CSET fast_phase_factor=false
+CSET memory_options_data=Block_RAM
+CSET number_of_stages_using_block_ram_for_data_and_phase_factors=1
+CSET ovflo=false
+CSET rounding_modes=Truncation
+CSET component_name=ofdm_fft
+CSET memory_options_phase_factors=Block_RAM
+CSET fast_butterfly=false
+CSET transform_length=256
+CSET implementation_options=Radix_4_Burst_IO
+CSET fast_complex_mult=false
+CSET sclr=false
+CSET optimize_for_speed_using_xtreme_dsp_slices=false
+CSET input_width=16
+CSET phase_factor_width=16
+# END Parameters
+GENERATE
+
